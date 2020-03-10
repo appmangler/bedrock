@@ -686,4 +686,7 @@ redirectpatterns = (
     redirect(r'^styleguide/identity/firefox(.+)', 'https://mozilla.design/firefox/'),
     redirect(r'^styleguide/identity/mozilla(.+)', 'https://mozilla.design/mozilla/'),
     redirect(r'^styleguide(/.*)?', 'https://mozilla.design/'),
+
+    # Issue 6824
+    redirect(r'^technology/?$', 'https://labs.mozilla.org/'),
 )
